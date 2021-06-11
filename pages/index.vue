@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>a-ooki</h1>
+    <h1>a-ooki develop</h1>
     <ul>
       <li v-for="content in contents" :key="content.id">
         <nuxt-link :to="`/${content.id}`">
