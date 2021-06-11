@@ -41,6 +41,7 @@ export default {
   build: {
   },
   generate: {
+    dir: "dist-dev",
     async routes() {
       const pages = await axios
         .get('https://ooki-develop.microcms.io/api/v1/blog', {
