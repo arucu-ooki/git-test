@@ -8,7 +8,7 @@
     "start": "nuxt start",
     "develop": "nuxt generate && npm run echo-netlify-basic-auth",
     "generate": "nuxt generate",
-    "echo-netlify-basic-auth": "echo \"/*\\n  Basic-Auth: $BASIC_AUTH_ID:$BASIC_AUTH_PASSWORD\" > dist-dev/_headers"
+    "echo-netlify-basic-auth": "echo \"/*\\n  Basic-Auth: ooki:1234\" > dist-dev/_headers"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.13.5",
